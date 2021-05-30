@@ -12,6 +12,7 @@ import javax.validation.Valid;
 import javax.xml.ws.Service;
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping(value = "/stock")
 public class StockController {
